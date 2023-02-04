@@ -1,0 +1,36 @@
+#Requires AutoHotkey v2.0
+;Notes: #==win !==Alt 2015-05-20  ^==Ctr  +==shift
+
+
+;Alt & Tab:: {AltTab} 
+Alt & t::Send "^t" 
+Alt & w::Send "^w"
+Alt & r::Send "^r" 
+Alt & c::Send "^c" 
+Alt & v::Send  "^v" 
+Alt & x::Send  "^x" 
+Alt & z::Send  "^z"
+Alt & y::Send  "^y" 
+Alt & s::Send  "^s" 
+Alt & a::Send  "^a" 
+Alt & f::Send  "^f" 
+Alt & h::Send  "^h"
+Alt & l::Send  "^l"
+Alt & Backspace::Send  "^{Backspace}"
+ 
+Alt & 1::Send  "^1"  
+Alt & 2::Send  "^2" 
+Alt & 3::Send  "^3"  
+Alt & 4::Send  "^4" 
+Alt & 5::Send  "^5"  
+Alt & 6::Send  "^6" 
+Alt & 7::Send  "^7"  
+Alt & 8::Send  "^8" 
+Alt & 9::Send  "^9" 
+Alt & '::Send  "^{Tab}" 
+Alt & sc027::Send  "^+{Tab}"    ;这个sc027代表特殊符号注释符号
+;Alt & {;}::Send  "^{Shift}{Tab}"
+;Alt & {; down}::Send "{Ctrl}{Shift}{Tab}" 
+
+Alt::Send "^"
+
